@@ -335,7 +335,12 @@ section {
 .swiper {
 	width: 800px;
 	height: 300px;
-  }
+}
+@media (max-width: 320px) {
+	.reviews {
+		display: none;
+	}
+}
 
 .slider__list {
 	padding-bottom: 40px;
